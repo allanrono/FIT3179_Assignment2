@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 450,
-  "height": 450,
+  "width": 350,
+  "height": 350,
   "title": "Price variation of different commodities In Kenya",
   "layer": [
     {
