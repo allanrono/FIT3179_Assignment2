@@ -14,12 +14,75 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Assignment 2</h1>
+    <div class="container-fluid">
+        <div class="row justify-content-md-center"">
+            <div class="col">
+                <h1>Impact of elections on Commodity Prices</h1>
+            </div>
+        </div>
+    </div>
     <hr>
-    <div id="vis1"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div id="vis1"></div>
+            </div>
+            <div class="col-sm">
+                <p>The map on the left shows the different commodities around the country.
+                    Each of these commodities vary in price depending on what region they are in. 
+                    The Map aims to show the range of commodities and their prices and whether they can be targeted by the 
+                    campaign managers to try win votes on these regions.
+                </p>
+                <p>The size of each green circle on the map shows how much
+                    it costs in that regions. The bigger the size, the much expensive the product is in that region. 
+                    Many factors can contribute to the increase of prices in these region. They include scarcity of that product in that region,
+                    physically challenging to bring in those coomodities to remote neigbourhoods,etc.
+                </p>
+                <P>
+                    These challenging factors can be used to promote a campaign around the regions and identify the most basic needs that
+                    need to be addressed. Certainly the candidate that can achieve address this issue will most ptobably get the voters votes
+                    of that region.
+                </P>
+            </div>
+        </div>
+    </div>
+    
     <hr>
-    <h1>This is part 2</h1>
-    <div id="vis2"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <p>The graph on the right shows the different regions and their registered voters.
+                    This can be used to identify which regions have the highest registered voters and each campaign manager
+                    can use it to target those first before mvoing on to the less registered regions.
+                </p>
+                <p>
+                    This therefore shows how politicians can use regions and their weaknesses to gain voters confidence and onec elected
+                    those same regions go back to struggling with the commodities. Typically politicians would initially solve the problem
+                    only for them to stop once the election has ended. This remains one of the biggest strategy used by kenyan politicians 
+                    and has come under a lot of critiscm  in the last 5 years.
+                </p>
+            </div>
+            <div class="col-sm">
+                <div id="vis2"></div>
+        </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        Author:Allan Rono
+                    </div>
+                    <div class="col-sm">
+                        Data Source: https://www.kaggle.com/tralahm/kenya2017voterdata
+                    </div>
+                    <div class="col-sm">
+                        Licence: World Bank Dataset Terms of Use
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
     <script type="text/javascript">
         var spec1 = "https://allanrono.github.io/FIT3179_Assignment2/visualization-map.vl.json";
