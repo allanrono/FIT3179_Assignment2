@@ -10,18 +10,26 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
     <!-- Import vega-embed -->
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
     <h1>Assignment 2</h1>
     <hr>
     <div id="vis1"></div>
+    <hr>
+    <h1>This is part 2</h1>
+    <div class="vis2"></div>
 
     <script type="text/javascript">
         var spec1 = "https://allanrono.github.io/FIT3179_Assignment2/visualization-map.vl.json";
+        var spec2 = "https://allanrono.github.io/FIT3179_Assignment2/visualization-line.vl.json"
         vegaEmbed('#vis1', spec1).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
+        vegaEmbed('#vis2', spec2).then(function (result) {
+                // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+            }).catch(console.error);
     </script>
 </body>
 </html>

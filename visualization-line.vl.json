@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": "850",
+  "height": "450",
+  "title": "Number of voters in each County",
+  "data": {
+    "url": "https://raw.githubusercontent.com/allanrono/FIT3179_Assignment2/main/voterscounties-2.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "COUNTY_NAME"},
+    "y": {"field": "VOTERS"},
+    "color": {"value": "green"}
+  },
+  "config": {}
+}
